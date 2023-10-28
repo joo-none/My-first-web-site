@@ -13,21 +13,69 @@
 
     gtag('config', 'G-XPDJLTXDBV');
     </script>
+    <style>
+        h2 {
+            border-bottom: 1px solid gray;
+            margin:0;
+            padding:20px;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+        }
+    
+
+        #block1 {
+            border-right: 1px solid gray;
+            width:250px;
+            margin:0;
+            padding:25px
+        }
+
+        #franch {
+            padding:25px;
+        }
+
+        @media(max-width:800px) {
+            #grid{
+                display: block;
+            }
+
+            #block1 {
+            border-right: none;
+            }
+            h2 {
+                border-bottom: none;
+            }
+
+
+        }
+
+        
+        
+
+    </style>
     </head>
 
     <body>
     <h2>회화 반복 학습 프로그램</h2>
+    <div id="grid">
+        <div id="block1">
+            <p>
+                회화 학습에 필요한 것들<br>
+                <ol>
+                    <li>vocabulary 암기</li>
+                    <li>하루 1 표현 암기</li>
+                    <li>Daily check list</li>
+                </ol>
 
-    <p>
-        회화 학습에 필요한 것들<br>
-        <ol>
-            <li>vocabulary 암기</li>
-            <li>하루 1 표현 암기</li>
-            <li>Daily check list</li>
-        </ol>
-
-
-    </p>
+            </p>
+        </div>
+        <div id="franch">
+            프랑스어(français, 프랑스어 발음: ​[fʁɑ̃sɛ])는 인도유럽어족 로망스어군에 속한 언어이다. 한국어에서는 한자로 음역 약칭으로 불어(佛語)라 부르기도 한다. 프랑스어는 (프랑스 북부에서 사용되던 언어인 “오일어”의 변종으로서) 프랑스에서 생겨났다. 프랑스어는 1539년부터 프랑스의 국어로 선포되었다.[5] 2018년 기준으로 전 대륙에 걸친 약 3억 명의 화자가 프랑스어를 사용한다[1] · [6] · [2]. 은 모국어 화자이다. 2018년 기준으로 전 세계 8000만 명의 학생들이 프랑스어를 배우고 있다.[7] 프랑코포니 국제기구에 따르면, 2050년경에는 전 세계의 프랑스어 화자가 7억 명이 될 것으로 추정된다.[8]
+        </div>
+    </div>
 
     <p> <div id="disqus_thread"></div>
         <script>
